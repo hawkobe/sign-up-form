@@ -20,10 +20,10 @@ h1, h2, h3, h4, h5 {
   font-weight: inherit;
 }
 
-img {
+/* img {
   display: block;
   max-inline-size: 100%;
-}
+} */
 
 /* Font */
 
@@ -35,6 +35,42 @@ img {
   font-style: normal;
 }
 
+.container {
+  margin: 10px auto;
+  max-width: 1200px;
+  height: 100vh;
+  display: flex;
+}
+
+.img-bg {
+  width: 400px;
+  height: 100%;
+  background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.main-content {
+  padding: 80px 0 80px 0;
+}
+
+div.logo {
+  margin-top: 10rem;
+  background-color: rgba(0,0,0,0.5);
+}
+
+img {
+  display: inline-block;
+  height: 6rem;
+  width: 4rem;
+}
+
 h1 {
-  font-family: 'norsebold', Arial, Helvetica, sans-serif
+  color: rgb(220, 220, 220);
+  font-family: 'norsebold', Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+}
+
+div > p {
+  padding-left: 20px;
 }
