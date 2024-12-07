@@ -125,7 +125,7 @@ div > h3 {
 
 div.form {
   background-color: rgb(255, 255, 255);
-  padding: 20px 40px;
+  padding: 20px 40px 30px 40px;
   box-shadow: 0 3px 5px rgb(188, 188, 188);
 }
 
@@ -170,8 +170,20 @@ input:focus {
   box-shadow: 2px 2px 5px rgb(188, 188, 188);
 }
 
-input:invalid {
+input:user-invalid {
   border: 1.5px solid rgb(232, 0, 0)
+}
+
+form > div:last-child {
+  position: relative;
+}
+
+form > div:last-child::after {
+  position: absolute;
+  content: '* indicates a required field';
+  top: 30px;
+  left: 0px;
+  font-size: 11px;
 }
 
 /* Button */
