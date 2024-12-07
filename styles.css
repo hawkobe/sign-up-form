@@ -99,8 +99,10 @@ div.logo {
   padding: 10px 0;
 }
 
-img.logo-img {
+.logo-img {
   display: inline-block;
+  background-image: url(/img/odin-logo.png);
+  background-size: cover;
   height: 6rem;
   width: 4.5rem;
 }
